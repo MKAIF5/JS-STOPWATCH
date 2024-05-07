@@ -1,9 +1,9 @@
-const minutes = 0;
-const seconds = 0;
-const miliseconds = 0;
-const getmin = document.getElementById("min");
-const getsec = document.getElementById("sec");
-const getmili = document.getElementById("msec");
+let minutes = 0;
+let seconds = 0;
+let miliseconds = 0;
+let getmin = document.getElementById("min");
+let getsec = document.getElementById("sec");
+let getmili = document.getElementById("msec");
 let interval;
 
 function start() {
@@ -19,12 +19,12 @@ function start() {
       getmin.innerHTML = minutes;
       seconds = 0;
     }
-    document.getElementById("start").disabled = true;
+    document.getElementById("check").disabled = true;
   }, 10);
 }
 function stop() {
   clearInterval(interval);
-  document.getElementById("start").disabled = false;
+  document.getElementById("check").disabled = false;
 }
 function reset() {
   minutes = 0;
