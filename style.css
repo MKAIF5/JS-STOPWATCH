@@ -1,127 +1,126 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: black;
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: black;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .timer img {
-    color: white;
-    width: 70px;
-    height: 90px;
+  color: white;
+  width: 70px;
+  height: 90px;
 }
 
 .timer p {
-    font-size: 70px;
-    margin-left: 20px;
+  font-size: 70px;
+  margin-left: 20px;
 }
 
 .timer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
 }
 
 .container h1 {
-    color: blue;
-    width: 100px;
-    height: 100px;
-    border: 1px solid white;
-    font-size: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 50px;
+  color: blue;
+  width: 100px;
+  height: 100px;
+  border: 1px solid white;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
 }
 
 .two h1 {
-    color: blue;
-    width: 100px;
-    height: 100px;
-    border: 1px solid white;
-    font-size: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  color: blue;
+  width: 100px;
+  height: 100px;
+  border: 1px solid white;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .three h1 {
-    color: blue;
-    width: 100px;
-    height: 100px;
-    border: 1px solid white;
-    font-size: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 50px;
+  color: blue;
+  width: 100px;
+  height: 100px;
+  border: 1px solid white;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
 }
 
 .main {
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
 }
 
 .column {
-    width: 65px;
-    display: flex;
-    align-items: center;
-
+  width: 65px;
+  display: flex;
+  align-items: center;
 }
 
 .column h1 {
-    font-size: 60px;
+  font-size: 60px;
 }
 
 .col-1 {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .col-1 h1 {
-    margin-left: 50px;
-    font-size: 60px;
+  margin-left: 50px;
+  font-size: 60px;
 }
 
 .button {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .button .b-one {
-    background-color: green;
-    color: white;
-    border: none;
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 100px;
-    position: relative;
-    right: 150px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 100px;
+  position: relative;
+  right: 150px;
 }
 
 .button .b-two {
-    padding: 15px;
-    background-color: red;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 100px;
+  padding: 15px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 100px;
 }
 
 .button .b-three {
-    padding: 15px;
-    background-color: rgb(171, 171, 22);
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 100px;
-    position: relative;
-    left: 150px;
+  padding: 15px;
+  background-color: rgb(171, 171, 22);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 100px;
+  position: relative;
+  left: 150px;
 }
