@@ -28,7 +28,7 @@ body {
     margin-top: 30px;
 }
 
-.one h1 {
+.container h1 {
     color: blue;
     width: 100px;
     height: 100px;
@@ -69,23 +69,23 @@ body {
     margin-top: 100px;
 }
 
-.abc {
+.column {
     width: 65px;
     display: flex;
     align-items: center;
 
 }
 
-.abc h1 {
+.column h1 {
     font-size: 60px;
 }
 
-.abcd {
+.col-1 {
     display: flex;
     align-items: center;
 }
 
-.abcd h1 {
+.col-1 h1 {
     margin-left: 50px;
     font-size: 60px;
 }
