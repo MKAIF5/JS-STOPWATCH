@@ -21,12 +21,12 @@ function start(){
         getmin.innerHTML = minutes
         seconds = 0
     }
-    document.getElementById("sss").disabled = true
+    document.getElementById("start").disabled = true
 }, 10)
 }
 function stop(){
     clearInterval(interval)
-    document.getElementById("sss").disabled = false
+    document.getElementById("start").disabled = false
 }
 function reset(){
      minutes = 0
